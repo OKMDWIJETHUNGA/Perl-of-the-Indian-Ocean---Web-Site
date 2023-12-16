@@ -1,0 +1,83 @@
+<html>
+
+<head>
+    <title>Travel in SRI LANKA/ queries</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="queri.js"></script>
+</head>
+
+<body>
+
+    <h1>Queries</h1>
+
+    <div class="navi-bar">
+
+        <ul>
+            <li><a href="/Home.html" target="blank">Home</a></li>
+            <li><a href="/information.html" target="blank">Information</a></li>
+            <li><a href="/queri.html" target="blank">Queries</a></li>
+            <li><a href="/about.html" target="blank">About Us</a></li>
+            <li><a href="/contact.html" target="blank">Contact Us</a></li>
+            <li><a href="/todo.html" target="blank">Todo List</a></li>
+        </ul>
+
+    </div>
+
+    <div class="page">
+
+        <h2>If you have any questions or suggestions? Drop us a message.</h2>
+
+        <form onchange="display()">
+
+            <div class="row">
+
+                <div class="column">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" placeholder="Enter your name here">
+                </div>
+
+                <div class="column">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Enter your email here">
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="column">
+                    <label for="subject">Subject</label>
+                    <input type="text" name="subject" placeholder="Enter your subject here">
+                </div>
+
+                <div class="column">
+                    <label for="contact">Contact number</label>
+                    <input type="text" name="contact" placeholder="Enter your phone number here">
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <label for="issue">Describe your Queries</label>
+                    <textarea name="issue" placeholder="Enter your query here" rows="7"></textarea>
+                </div>
+
+            </div>
+
+            <button>Submit</button>
+            <button onclick="cls();">Clear</button>
+
+        </form>
+
+
+        <footer>
+            <p style="color: black; font-size: 20px;">
+
+                &copy;2021 Pearl of the Indian Ocean Travel in SRI LANKA.
+
+            </p>
+        </footer>
+</body>
+
+</html>
